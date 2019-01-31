@@ -1,0 +1,23 @@
+{
+  "name": "@emnify/batch-change-sim-issuer",
+  "version": "1.0.0",
+  "description": "EMnify helper script to change the issuer organisation of a batch of sim cards",
+  "main": "index.js",
+  "author": "EMnify GmbH",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "inquirer": "^6.2.1",
+    "jsonwebtoken": "^8.4.0",
+    "promise": "^8.0.2",
+    "request": "^2.88.0",
+    "throttled-request": "^0.1.1"
+  },
+  "bin": {
+    "batchChangeSimIssuer": "./index.js"
+  }
+}
