@@ -11,9 +11,9 @@ const fs = require('fs');
 const path = require('path');
 
 throttledRequest.configure({
-  requests: 10,
+  requests: 3,
   milliseconds: 1000
-}); //This will throttle the requests so no more than 10 are made every second
+}); //This will throttle the requests so no more than 3 are made every second
 
 const API_URL = "https://cdn.emnify.net/api/v1";
 
